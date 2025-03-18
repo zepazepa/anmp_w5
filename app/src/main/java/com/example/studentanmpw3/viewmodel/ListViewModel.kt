@@ -19,7 +19,7 @@ class ListViewModel(app:Application):AndroidViewModel(app) {
     val errorLD = MutableLiveData<Boolean>()
     val TAG = "student data fetch"
     private var queue: RequestQueue? = null
-
+    // new feature added
     override fun onCleared() {
         super.onCleared()
         queue?.cancelAll(TAG)
