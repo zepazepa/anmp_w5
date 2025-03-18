@@ -17,8 +17,7 @@ import java.util.zip.Inflater
 class StudentListFragment : Fragment() {
     private lateinit var binding:FragmentStudentListBinding
     private val adapter = StudentListAdapter(arrayListOf())
-    private lateinit var viewModel: ListViewModel
-
+    private lateinit var viewModel: ListViewModel //test
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
