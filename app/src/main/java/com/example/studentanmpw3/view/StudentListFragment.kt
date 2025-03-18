@@ -20,6 +20,7 @@ class StudentListFragment : Fragment() {
     private lateinit var viewModel: ListViewModel //test
     //bug fix
     //bug fix 2
+    //bug fix 3
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
