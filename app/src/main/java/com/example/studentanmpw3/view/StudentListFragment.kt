@@ -18,6 +18,7 @@ class StudentListFragment : Fragment() {
     private lateinit var binding:FragmentStudentListBinding
     private val adapter = StudentListAdapter(arrayListOf())
     private lateinit var viewModel: ListViewModel //test
+    //bug fix
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
